@@ -2,10 +2,10 @@
 
 .navbar-brand {
     font-family: Viga;
-    font-size: 29px;
+    font-size: 32px;
 }
 .navbar-nav{
-    padding-left: 670px;
+    padding-left: 650px;
 }
 
 
@@ -14,9 +14,18 @@
 .jumbotron {
     background-image: url(slider/jumbotron-10.jpg);
     background-size: cover;
-    height: 550px;
+    height: 630px;
 }
-
+.jumbotron .display-4{
+    color: white;
+    text-align: left;
+    padding-top: 150px;
+    font-weight: 90;
+    font-size: 75px;
+}
+.jumbotron .display-4 span{
+    font-weight: 500;
+}
 
 /* Utility */
 
@@ -29,18 +38,30 @@
 /*Desktop Version  */
 
 @media (min-width: 992px) {
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
     .nav-link {
         text-transform: uppercase;
-        margin-right: 50;
+        margin-right: 10px;
     }
+
     .navbar-brand:hover {
-        border-bottom: 0.5px solid #ffffff;
+        border-bottom: 0.5px solid #0b63dc;
     }
+
     .nav-link:hover::after {
         content: '';
         display: block;
-        border-bottom: 0.5px solid #ffffff;
-        width: 100%;
-        margin: 0.5px;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron{
+        margin-top: -70px;
     }
 }
