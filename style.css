@@ -1,0 +1,43 @@
+/* Navbar */
+
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url(slider/jumbotron-9.jpg);
+    background-size: cover;
+    height: 550px;
+}
+
+
+/* Utility */
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+
+/*Desktop Version  */
+
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30;
+    }
+    .navbar-brand:hover {
+        border-bottom: 5px solid #000AFF;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 5px solid #000AFF;
+        width: 50%;
+        margin: auto;
+    }
+}
