@@ -2,14 +2,17 @@
 
 .navbar-brand {
     font-family: Viga;
-    font-size: 32px;
+    font-size: 29px;
+}
+.navbar-nav{
+    padding-left: 670px;
 }
 
 
 /* Jumbotron */
 
 .jumbotron {
-    background-image: url(slider/jumbotron-9.jpg);
+    background-image: url(slider/jumbotron-10.jpg);
     background-size: cover;
     height: 550px;
 }
@@ -28,16 +31,16 @@
 @media (min-width: 992px) {
     .nav-link {
         text-transform: uppercase;
-        margin-right: 30;
+        margin-right: 50;
     }
     .navbar-brand:hover {
-        border-bottom: 5px solid #000AFF;
+        border-bottom: 0.5px solid #ffffff;
     }
     .nav-link:hover::after {
         content: '';
         display: block;
-        border-bottom: 5px solid #000AFF;
-        width: 50%;
-        margin: auto;
+        border-bottom: 0.5px solid #ffffff;
+        width: 100%;
+        margin: 0.5px;
     }
 }
