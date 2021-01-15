@@ -1,34 +1,32 @@
-/* body{
-    background-color: rgba(0, 0, 0, 0.945);
-} */
-
+body{
+    width: 1440px;
+}
 /* Navbar */
 
 .navbar-brand {
     font-family: Viga;
-    font-size: 32px;
+    font-size: 30px;
 }
 .navbar-nav{
-    padding-left: 650px;
+    margin-left: auto;
+    /* padding-left: 6px; */
+    /* padding-right: ; */
 }
 
 
 /* Jumbotron */
 
-.jumbotron {
+/* .jumbotron {
     background-image: url(slider/jumbotron-10.jpg);
     background-size: cover;
     height: 700px;
     width: 1515px;
-    /* margin-left: 100px;
-    margin-right: 100px; */
 }
 .jumbotron .display-4{
     color: white;
     text-align: center;
     padding-top: 92px;
-    padding-right: 350px;
-    /* font-weight: ; */
+    padding-right: 245px;
     font-size: 32px;
     font: Helvetica;
 }
@@ -36,7 +34,7 @@
     color: white;
     font: normal;
     font-weight: 500;
-    padding-left: 300px ;
+    padding-left: 350px ;
     font-size: 15px;
     font: Helvetica;
 }
@@ -47,14 +45,23 @@
     height: 249px;
     padding-top: 92px;
     padding-left: 92px;
+} */
+
+/* Carousel */
+.carousel-item{
+    /* width: auto; */
+    height: 600px;
 }
 
+.carousel-item img{
+    background-size: cover;
+}
 
 /* Info Panel */
 .info-panel{
     /* background-color: salmon; */
     border-radius: 50px;
-    margin-top: -166px;
+    /* margin-top: -130px; */
     background-color: white;
     padding: 30px;
     border-style: solid;
@@ -66,16 +73,12 @@
     font-weight: 500;
 }
 .info-panel img{
-    /* left: 100px; */
     width: 103px;
     height: 100px;
     margin-bottom: 21px;
 }
 
-/* Carousel */
-/* .carousel .slide{
-    width: ;
-} */
+
 
 /* Utility */
 
@@ -90,13 +93,18 @@
 @media (min-width: 992px) {
     .navbar-brand, .nav-link{
         color: black !important;
-        /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); */
         
+    }
+    .navbar-nav{
+        margin-left: auto;
+    }
+    .navbar-nav .nav-item{
+        text-size-adjust: 50px;
     }
 
     .nav-link {
         text-transform: uppercase;
-        margin-right: 10px;
+        margin-right: 5px;
     }
 
     .navbar-brand:hover {
