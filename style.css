@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(0, 0, 0, 0.945);
+}
+
 /* Navbar */
 
 .navbar-brand {
@@ -14,7 +18,7 @@
 .jumbotron {
     background-image: url(slider/jumbotron-10.jpg);
     background-size: cover;
-    height: 500px;
+    height: 700px;
     width: 1536px;
     /* margin-left: 100px;
     margin-right: 100px; */
@@ -67,6 +71,12 @@
     height: 100px;
     margin-bottom: 21px;
 }
+
+/* Carousel */
+/* .carousel .slide{
+    width: ;
+} */
+
 /* Utility */
 
 .tombol {
@@ -91,6 +101,7 @@
 
     .navbar-brand:hover {
         border-bottom: 3.5px solid #0b63dc;
+        margin-bottom: -3.5px;
     }
 
     .nav-link:hover::after {
