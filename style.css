@@ -50,22 +50,48 @@ body{
 /* Carousel */
 .carousel-item{
     /* width: auto; */
-    height: 600px;
+    height: 555px;
 }
 
-.carousel-item img{
-    background-size: cover;
+.carousel-item .carousel-caption{
+    position: absolute;
+    color: white;
+    font: normal;
+    font-weight: 500;
+    top: 92px;
+    padding-left: 320px ;
+    text-align: left;
+    font-size: 15px;
+    font: Helvetica;
+}
+
+.carousel-caption img{
+    position: absolute;
+    left: 50px;
+    width: 253px;
+    height: 249px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    margin-left: 10px;
+}
+.carousel-caption .caption-h4{
+    font-size: 32px;
+}
+
+.carousel-caption .caption-p{
+    font-size: 18px;
 }
 
 /* Info Panel */
 .info-panel{
     /* background-color: salmon; */
     border-radius: 50px;
-    /* margin-top: -130px; */
+    margin-top: -170px;
     background-color: white;
     padding: 30px;
     border-style: solid;
     border-color: rgba(3, 34, 114, 1);
+    z-index: 1;
 }
 .info-panel h2{
     font: Helvetica;
@@ -124,4 +150,49 @@ body{
     /* .jumbotron{
         margin-top: -70px;
     } */
+    .carousel-item{
+        /* width: auto; */
+        height: 555px;
+    }
+    .carousel-item .carousel-caption{
+        padding-left: 200px;
+    }
+    .carousel-caption img{
+        position: absolute;
+        left: 0;
+        width: 204px;
+        height: 200px;
+        padding-bottom: 50px;
+        padding-right: 50px;
+        margin-left: 10px;
+    }
+    .carousel-caption .caption-h4{
+        font-size: 30px;
+    }
+    
+    .carousel-caption .caption-p{
+        font-size: 12.5px;
+    }
+    .info-panel{
+        /* background-color: salmon; */
+        width: 750px;
+        height: 170px;
+        border-radius: 50px;
+        margin-top: -250px;
+        background-color: white;
+        padding: 30px;
+        border-style: solid;
+        border-color: rgba(3, 34, 114, 1);
+        z-index: 1;
+    }
+    .info-panel h2{
+        font: Helvetica;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .info-panel img{
+        width: 50px;
+        height: 47px;
+        margin-bottom: 21px;
+    }
 }
