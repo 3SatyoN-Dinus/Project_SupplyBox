@@ -74,12 +74,18 @@ body{
     padding-right: 50px;
     margin-left: 10px;
 }
-.carousel-caption .caption-h4{
+.carousel-caption .caption-h4-1{
+    font-size: 32px;
+}
+.carousel-caption .caption-h4-2{
     font-size: 32px;
 }
 
-.carousel-caption .caption-p{
-    font-size: 18px;
+.carousel-caption .caption-p-1{
+    font-size: 16px;
+}
+.carousel-caption .caption-p-2{
+    font-size: 13.5px;
 }
 
 /* Info Panel */
@@ -166,19 +172,25 @@ body{
         padding-right: 50px;
         margin-left: 10px;
     }
-    .carousel-caption .caption-h4{
-        font-size: 30px;
+    .carousel-caption .caption-h4-1{
+        font-size: 20px;
+    }
+    .carousel-caption .caption-h4-2{
+        font-size: 20px;
     }
     
-    .carousel-caption .caption-p{
-        font-size: 12.5px;
+    .carousel-caption .caption-p-1{
+        font-size: 14px;
+    }
+    .carousel-caption .caption-p-2{
+        font-size: 12px;
     }
     .info-panel{
         /* background-color: salmon; */
         width: 750px;
         height: 170px;
         border-radius: 50px;
-        margin-top: -250px;
+        margin-top: -190px;
         background-color: white;
         padding: 30px;
         border-style: solid;
